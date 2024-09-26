@@ -32,7 +32,7 @@ const MultipleTransitions = () => {
           <p>trasition-[opacity_width] + different duration</p>
           <Button
             className={
-              "w-[40%] transition-[opacity_width] [transition:opacity_4s,width_1s] hover:opacity-0 hover:w-full"
+              "w-[40%] [transition:opacity_4s,width_1s] hover:opacity-0 hover:w-full"
             }
           />
         </Wrapper>
@@ -40,7 +40,7 @@ const MultipleTransitions = () => {
           <p>trasition-[border-radius_border-color] + diffeerent timing function + duration</p>
 <Button
   className={
-    "transition-[border-radius_border-color] [transition:border-radius_2s_linear,border-color_0.5s_ease-in] hover:border-sky-800 hover:rounded-3xl"
+    "[transition:border-radius_2s_linear,border-color_0.5s_ease-in] hover:border-sky-800 hover:rounded-3xl"
   }
 />
         </Wrapper>
@@ -49,7 +49,7 @@ const MultipleTransitions = () => {
           <p>trasition-[transform_width_font-size]</p>
 <Button
   className={
-    "transition-[color_border-width_font-size] [transition:color_1s,border-width_1s_1s,font-size_1s_2s] hover:text-sky-500 hover:border-[10px] hover:text-[40px]"
+    "[transition:color_1s,border-width_1s_1s,font-size_1s_2s] hover:text-sky-500 hover:border-[10px] hover:text-[40px]"
   }
 />
         </Wrapper>

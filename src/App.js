@@ -7,15 +7,19 @@ import Typography from "./routes/Typography";
 import MultipleTransitions from "./routes/MultipleTransitions";
 import Spacing from "./routes/Spacing";
 import BordersAndOutline from "./routes/BordersAndOutline";
+import DisplayAndFlex from "./routes/DisplayAndFlex";
+import Filters from "./routes/Filter";
 
 export const menuList = [
+  "multiple-transitions",
   "shadow-opacity",
   "transform",
   "colors",
   "typography",
   "border-outline",
   "spacing",
-  "multiple-transitions",
+  "display-flex",
+  "filter"
 ];
 
 let router = createBrowserRouter([
@@ -24,32 +28,36 @@ let router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path: menuList[0],
+        path: menuList[1],
         element: <ShadowAndOpacity />,
       },
       {
-        path: menuList[1],
+        path: menuList[2],
         element: <TransformSection />,
       },
       {
-        path: menuList[2],
+        path: menuList[3],
         element: <ColorsSection />,
       },
       {
-        path: menuList[3],
+        path: menuList[4],
         element: <Typography />,
       },
       {
-        path: menuList[4],
+        path: menuList[5],
         element: <BordersAndOutline />,
       },
       {
-        path: menuList[5],
+        path: menuList[6],
         element: <Spacing />
       },
       {
-        path: menuList[6],
-        element: <MultipleTransitions />,
+        path: menuList[7],
+        element: <DisplayAndFlex />,
+      },
+      {
+        path: menuList[8],
+        element: <Filters />
       },
     ],
   },

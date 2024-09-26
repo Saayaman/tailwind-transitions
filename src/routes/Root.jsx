@@ -1,17 +1,19 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { menuList } from "../App";
+import MultipleTransitions from "./MultipleTransitions";
 
 function Root() {
   const location = useLocation();
 
   const Menu = ({ menuName }) => {
+    const linkName = menuName === menuList[0] ? '' : menuName
     return (
       <li>
         <Link
           className={`hover:text-sky-500 ${
-            `/${menuName}` === location.pathname && "text-sky-500"
+            `/${linkName}` === location.pathname && "text-sky-500"
           }`}
-          to={menuName}
+          to={linkName}
         >
           {menuName}
         </Link>
@@ -29,7 +31,7 @@ function Root() {
           ))}
         </ul>
       </nav>
-      <Outlet />
+      {location.pathname === '/' ? <MultipleTransitions /> : <Outlet />}
     </main>
   );
 }

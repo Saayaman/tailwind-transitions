@@ -48,7 +48,7 @@ const Typography = () => {
             <p>❌ transition-[line-height]</p>
             <Button
               className={
-                "duration-500 transition-all leading-2 hover:leading-10"
+                "duration-500 transition-[line-height] leading-2 hover:leading-10"
               }
             />
           </Wrapper>
@@ -88,14 +88,22 @@ const Typography = () => {
 
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 justify-between align-center mt-8">
           <Wrapper>
-            <p>❌ transition-[text-decoration]</p>
+            <p>transition-[text-decoration-color]</p>
             <Button
               className={
-                "duration-500 transition-[text-decoration] underline hover:[text-decoration:green_double_underline]"
+                "duration-500 transition-[text-decoration-color] underline decoration-wavy hover:[text-decoration-color:yellow]"
               }
             />
-            <span className="text-[12px]">
-              *Only the <b>text-decoration-color</b> works with transition.
+          </Wrapper>
+          <Wrapper>
+            <p>transition-[text-underline-offset]</p>
+            <Button
+              className={
+                "duration-500 transition-[text-underline-offset] underline underline-offset-1 hover:underline-offset-8"
+              }
+            />
+                      <span className="text-[12px]">
+              *Only works if we have both default value and animated value <b>underline-offset-*</b>
             </span>
           </Wrapper>
           <Wrapper>
@@ -119,14 +127,6 @@ const Typography = () => {
             <Button
               className={
                 "duration-500 transition-[text-decoration-thickness] line-through decoration-solid decoration-2 hover:decoration-8"
-              }
-            />
-          </Wrapper>
-          <Wrapper>
-            <p>❌ transition-[text-underline-offset]</p>
-            <Button
-              className={
-                "duration-500 transition-[text-underline-offset] underline hover:underline-offset-8"
               }
             />
           </Wrapper>
@@ -181,15 +181,28 @@ const Typography = () => {
             />
           </Wrapper>
           <Wrapper>
-            <p>❌ transition-[text-emphasis]</p>
+            <p>transition-[text-emphasis-color]</p>
             <Button
               className={
-                "duration-500 transition-[text-emphasis] hover:[text-emphasis:filled_double-circle_#ffb703]"
+                "duration-500 transition-[text-emphasis-color] [text-emphasis-style:circle] hover:[text-emphasis-color:red]"
               }
             />
-            <span className="text-[12px]">
-              *Only the <b>text-emphasis-color</b> works with transition.
-            </span>
+          </Wrapper>
+          <Wrapper>
+            <p>❌ transition-[text-emphasis-position]</p>
+            <Button
+              className={
+                "duration-500 transition-[text-emphasis-position] [text-emphasis-style:triangle] [text-emphasis-position:over_right] hover:[text-emphasis-position:under_right]"
+              }
+            />
+          </Wrapper>
+          <Wrapper>
+            <p>❌ transition-[text-emphasis-style]</p>
+            <Button
+              className={
+                "duration-500 transition-[text-emphasis-style] [text-emphasis-style:triangle] [text-emphasis-position:over_right] hover:[text-emphasis-style:double-circle]"
+              }
+            />
           </Wrapper>
         </div>
       </section>

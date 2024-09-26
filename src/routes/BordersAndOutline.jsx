@@ -88,35 +88,6 @@ const BordersAndOutline = () => {
 
           </div>
       </section>
-
-      <section>
-        <h2 className="text-xl font-bold">display (transition properties)</h2>
-        <p>block, none, grid, flex, table, inline</p>
-
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 justify-between align-center mt-8">
-          <Wrapper>
-            <p>❌ transition-[display]</p>
-            <Button
-              className={
-                "duration-500 transition-[display] bg-sky-400 block hover:hidden"
-              }
-            />
-            <span className="text-[12px]">
-              *There is no transition for display block to none. Best to just
-              use opacity for apperance. Similarly transitioning doesn't work
-              from one display style to another
-            </span>
-          </Wrapper>
-
-          <Wrapper>
-            <p>❌ transition-[flex]</p>
-            <div className="flex">
-              <Button className="transition-all order-1 bg-sky-300 hover:order-last" />
-              <Button className="order-2" />
-            </div>
-          </Wrapper>
-        </div>
-      </section>
     </>
   );
 };
