@@ -53,6 +53,16 @@ const MultipleTransitions = () => {
   }
 />
         </Wrapper>
+        <Wrapper>
+          <p>3 transitions + 2 different actions (hover + click)</p>
+          <p>trasition-[color_border-width_border-color]</p>
+<Button
+  className={
+    "[transition:color_1s,border-width_1s,border-color_1s_1s] hover:text-sky-500 focus:border-[10px] focus:border-sky-900"
+  }
+> + Click Me
+  </Button>
+        </Wrapper>
       </div>
     </section>
   );

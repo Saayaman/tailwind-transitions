@@ -8,8 +8,8 @@ const Button = ({ className, children }) => {
       className={`px-3 py-2 rounded border-2 flex items-center ${className}`}
       onClick={() => setCount(count + 1)}
     >
-      {children}
       Hover me
+      {children}
     </button>
   );
 };
