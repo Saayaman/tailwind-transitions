@@ -52,7 +52,7 @@ const DisplayAndFlex = () => {
             <p>
              ❌ transition-[flex]<br />
             </p>
-            <div class="transition-[flex] w-full flex-auto flex hover:[&>button]:flex-[1_200px]">
+            <div className="transition-[flex] w-full flex-auto flex hover:[&>button]:flex-[1_200px]">
               <Button />
               <Button />
             </div>
@@ -61,19 +61,19 @@ const DisplayAndFlex = () => {
             <p>
               ❌ transition-[justify-content]<br />
             </p>
-            <div class="transition-all w-full flex justify-between hover:justify-around">
-              <Button />
-              <Button />
-            </div>
+<div class="transition-all w-full flex justify-between hover:justify-around">
+  <Button />
+  <Button />
+</div>
           </Wrapper>
           <Wrapper>
             <p>
              ❌ transition-[align-items]<br />
             </p>
-            <div class="transition-all w-full h-[100px] flex items-start hover:items-end">
-              <Button />
-              <Button />
-            </div>
+<div class="transition-all w-full h-[100px] flex items-start hover:items-end">
+  <Button />
+  <Button />
+</div>
           </Wrapper>
           <Wrapper>
             <p>
@@ -98,33 +98,33 @@ const DisplayAndFlex = () => {
             <p>
               transition-[top](absolute)<br />
             </p>
-            <div className="relative h-[60px]">
-              <Button className="transition-[top] absolute top-0 hover:top-6" />
-            </div>
+<div className="relative h-[60px]">
+  <Button className="transition-[top] absolute top-0 hover:top-6" />
+</div>
           </Wrapper>
           <Wrapper>
             <p>
               transition-[bottom](absolute)<br />
             </p>
-            <div className="relative h-[60px]">
-              <Button className="transition-[bottom] absolute bottom-0 hover:bottom-6" />
-            </div>
+<div className="relative h-[60px]">
+  <Button className="transition-[bottom] absolute bottom-0 hover:bottom-6" />
+</div>
           </Wrapper>
           <Wrapper>
             <p>
               transition-[left](absolute)<br />
             </p>
-            <div className="relative h-[60px]">
-              <Button className="transition-[left] absolute left-0 hover:left-6" />
-            </div>
+<div className="relative h-[60px]">
+  <Button className="transition-[left] absolute left-0 hover:left-6" />
+</div>
           </Wrapper>
           <Wrapper>
             <p>
               transition-[right](absolute)<br />
             </p>
-            <div className="relative h-[60px]">
-              <Button className="transition-[right] absolute right-0 hover:right-6" />
-            </div>
+<div className="relative h-[60px]">
+  <Button className="transition-[right] absolute right-0 hover:right-6" />
+</div>
           </Wrapper>
         </div>
         <span className="text-[12px]">

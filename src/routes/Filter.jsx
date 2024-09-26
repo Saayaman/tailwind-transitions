@@ -102,7 +102,6 @@ const Filters = () => {
             transition-[backdrop-filter](hue-rotate) <br />
             </p>
             <div className="relative">
-
               <Mountain />
               <div className="duration-[750ms] transition-all absolute top-[50%] translate-y-[-50%] translate-x-[-50%] left-[50%] bg-white/30 w-16 h-16  hover:backdrop-hue-rotate-90">Hover me</div>
             </div>
