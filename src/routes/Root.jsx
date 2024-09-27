@@ -10,7 +10,7 @@ function Root() {
     return (
       <li>
         <Link
-          className={`hover:text-teal-500 ${
+          className={`transition-[color] hover:text-teal-500 underline ${
             `/${linkName}` === location.pathname && "text-teal-500"
           }`}
           to={linkName}
