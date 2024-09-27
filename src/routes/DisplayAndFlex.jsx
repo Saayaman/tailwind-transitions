@@ -12,7 +12,7 @@ const DisplayAndFlex = () => {
             <p>❌ transition-[display]</p>
             <Button
               className={
-                "duration-500 transition-all bg-sky-400 block hover:hidden"
+                "duration-500 transition-all bg-teal-400 block hover:hidden"
               }
             />
           </Wrapper>

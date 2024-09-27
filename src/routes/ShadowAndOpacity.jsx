@@ -25,7 +25,7 @@ const ShadowAndOpacity = () => {
           </p>
           <Button
             className={
-              "duration-500 transition-shadow shadow-md shadow-[green] hover:shadow-xl hover:shadow-sky-500"
+              "duration-500 transition-shadow shadow-md shadow-orange-400 hover:shadow-xl hover:shadow-teal-400"
             }
           />
         </Wrapper>

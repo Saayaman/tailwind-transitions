@@ -14,14 +14,14 @@ const ColorsSection = () => {
         <p>transition-colors (applies all colors above)</p>
         <Button
           className={
-            "duration-1000 transition-colors underline hover:bg-sky-700 hover:text-sky-400 hover:border-text-sky-500"
+            "duration-1000 transition-colors underline hover:bg-teal-600 hover:text-teal-200 hover:border-text-teal-500"
           }
         >
           <Icon className="size-6" />
         </Button>
         <span className="text-[12px]">
           *After some experiment, found out that when you apply
-          <b> transition-colors</b> and <b> hover:text-sky-400 </b> it will
+          <b> transition-colors</b> and <b> hover:text-teal-400 </b> it will
           apply transition effect to <b>text color, text-decoration-color</b>{" "}
           and <b>stroke</b>
         </span>
@@ -31,21 +31,21 @@ const ColorsSection = () => {
           <p>transition-[background-color]</p>
           <Button
             className={
-              "duration-500 transition-[background-color] hover:bg-sky-700"
+              "duration-500 transition-[background-color] hover:bg-teal-400"
             }
           />
         </Wrapper>
         <Wrapper>
           <p>transition-[color]</p>
           <Button
-            className={"duration-500 transition-[color] hover:text-sky-500"}
+            className={"duration-500 transition-[color] hover:text-teal-400"}
           />
         </Wrapper>
         <Wrapper>
           <p>transition-[border-color]</p>
           <Button
             className={
-              "duration-500 transition-[border-color] hover:border-sky-400"
+              "duration-500 transition-[border-color] hover:border-teal-400"
             }
           />
         </Wrapper>
@@ -53,7 +53,7 @@ const ColorsSection = () => {
           <p>transition-[text-decoration]</p>
           <Button
             className={
-              "duration-500 transition-[text-decoration-color] underline hover:decoration-sky-400"
+              "duration-500 transition-[text-decoration-color] underline hover:decoration-teal-400"
             }
           />
         </Wrapper>
@@ -61,14 +61,14 @@ const ColorsSection = () => {
           <p>transition-[fill]</p>
           <Icon
             className={
-              "duration-500 transition-[fill] fill-transparent hover:fill-sky-500"
+              "duration-500 transition-[fill] fill-transparent hover:fill-teal-400"
             }
           />
         </Wrapper>
         <Wrapper>
           <p>transition-[stroke]</p>
           <Icon
-            className={"duration-500 transition-[stroke] hover:stroke-sky-500"}
+            className={"duration-500 transition-[stroke] hover:stroke-teal-400"}
           />
         </Wrapper>
       </div>

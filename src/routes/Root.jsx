@@ -10,8 +10,8 @@ function Root() {
     return (
       <li>
         <Link
-          className={`hover:text-sky-500 ${
-            `/${linkName}` === location.pathname && "text-sky-500"
+          className={`hover:text-teal-500 ${
+            `/${linkName}` === location.pathname && "text-teal-500"
           }`}
           to={linkName}
         >

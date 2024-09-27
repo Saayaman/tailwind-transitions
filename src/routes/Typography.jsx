@@ -91,7 +91,7 @@ const Typography = () => {
             <p>transition-[text-decoration-color]</p>
             <Button
               className={
-                "duration-500 transition-[text-decoration-color] underline decoration-wavy hover:[text-decoration-color:yellow]"
+                "duration-500 transition-[text-decoration-color] underline decoration-wavy hover:[text-decoration-color:lightSeaGreen]"
               }
             />
           </Wrapper>
@@ -176,7 +176,7 @@ const Typography = () => {
             <p>transition-[text-shadow]</p>
             <Button
               className={
-                "duration-500 transition-[text-shadow] hover:[text-shadow:red_1px_0_10px]"
+                "duration-500 transition-[text-shadow] hover:[text-shadow:lightSeaGreen_1px_6px_2px]"
               }
             />
           </Wrapper>
@@ -184,7 +184,7 @@ const Typography = () => {
             <p>transition-[text-emphasis-color]</p>
             <Button
               className={
-                "duration-500 transition-[text-emphasis-color] [text-emphasis-style:circle] hover:[text-emphasis-color:red]"
+                "duration-500 transition-[text-emphasis-color] [text-emphasis-style:circle] hover:[text-emphasis-color:lightSeaGreen]"
               }
             />
           </Wrapper>

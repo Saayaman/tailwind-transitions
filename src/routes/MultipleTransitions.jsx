@@ -40,7 +40,7 @@ const MultipleTransitions = () => {
           <p>trasition-[border-radius_border-color] + diffeerent timing function + duration</p>
 <Button
   className={
-    "[transition:border-radius_2s_linear,border-color_0.5s_ease-in] hover:border-sky-800 hover:rounded-3xl"
+    "[transition:border-radius_2s_linear,border-color_0.5s_ease-in] hover:border-teal-400 hover:rounded-3xl"
   }
 />
         </Wrapper>
@@ -49,7 +49,7 @@ const MultipleTransitions = () => {
           <p>trasition-[transform_width_font-size]</p>
 <Button
   className={
-    "[transition:color_1s,border-width_1s_1s,font-size_1s_2s] hover:text-sky-500 hover:border-[10px] hover:text-[40px]"
+    "[transition:color_1s,border-width_1s_1s,font-size_1s_2s] hover:text-teal-400 hover:border-[10px] hover:text-[40px]"
   }
 />
         </Wrapper>
@@ -58,7 +58,7 @@ const MultipleTransitions = () => {
           <p>trasition-[color_border-width_border-color]</p>
 <Button
   className={
-    "[transition:color_1s,border-width_1s,border-color_1s_1s] hover:text-sky-500 focus:border-[10px] focus:border-sky-900"
+    "[transition:color_1s,border-width_1s,border-color_1s_1s] hover:text-teal-500 focus:border-[10px] focus:border-teal-400"
   }
 > + Click Me
   </Button>

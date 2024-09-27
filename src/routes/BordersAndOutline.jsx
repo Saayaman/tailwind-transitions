@@ -12,7 +12,7 @@ const BordersAndOutline = () => {
             <p> transition-[border]</p>
             <Button
               className={
-                "duration-500 transition-[border] bg-sky-400 hover:[border:5px_dotted_red] hover:rounded-3xl"
+                "duration-500 transition-[border] bg-teal-400 hover:[border:5px_dotted_black] hover:rounded-3xl"
               }
             />
             <span className="text-[12px]">
@@ -28,7 +28,7 @@ const BordersAndOutline = () => {
             <p>❌ transition-[border-style]</p>
             <Button
               className={
-                "duration-500 transition-[border-style] border-sky-500 border-solid border-2 hover:border-dotted"
+                "duration-500 transition-[border-style] border-teal-400 border-solid border-2 hover:border-dotted"
               }
             />
           </Wrapper>
@@ -36,7 +36,7 @@ const BordersAndOutline = () => {
             <p> transition-[border-width]</p>
             <Button
               className={
-                "duration-500 transition-[border-width] border-sky-500 border-2 hover:border-8"
+                "duration-500 transition-[border-width] border-teal-400 border-2 hover:border-8"
               }
             />
           </Wrapper>
@@ -44,7 +44,7 @@ const BordersAndOutline = () => {
             <p> transition-[border-radius]</p>
             <Button
               className={
-                "duration-500 transition-[border-radius] bg-sky-400 hover:rounded-3xl"
+                "duration-500 transition-[border-radius] bg-teal-400 hover:rounded-3xl"
               }
             />
           </Wrapper>
@@ -57,7 +57,7 @@ const BordersAndOutline = () => {
               <p>❌ transition-[outline-style]</p>
               <Button
                 className={
-                  "duration-500 transition-[outline-style] [border:2px_solid_black] outline-sky-500 outline-dashed outline-4  hover:outline-dotted"
+                  "duration-500 transition-[outline-style] [border:2px_solid_black] outline-teal-400 outline-dashed outline-4  hover:outline-dotted"
                 }
               />
             </Wrapper>
@@ -65,7 +65,7 @@ const BordersAndOutline = () => {
               <p> transition-[outline-width]</p>
               <Button
                 className={
-                  "duration-500 transition-[outline-width] [border:2px_solid_black] outline-sky-500 outline-dotted outline-2 hover:outline-8"
+                  "duration-500 transition-[outline-width] [border:2px_solid_black] outline-teal-400 outline-dotted outline-2 hover:outline-8"
                 }
               />
             </Wrapper>
@@ -73,7 +73,7 @@ const BordersAndOutline = () => {
               <p> transition-[outline-offset]</p>
               <Button
                 className={
-                  "duration-500 transition-[outline-offset] [border:2px_solid_black] outline-offset-0 outline-sky-500 outline-double outline-2 hover:outline-offset-8"
+                  "duration-500 transition-[outline-offset] [border:2px_solid_black] outline-offset-0 outline-teal-400 outline-double outline-2 hover:outline-offset-8"
                 }
               />
             </Wrapper>
@@ -81,7 +81,7 @@ const BordersAndOutline = () => {
               <p> transition-[outline-color]</p>
               <Button
                 className={
-                  "duration-500 transition-[outline-color] [border:2px_solid_black] outline-sky-500 outline-double outline-8 hover:outline-sky-950"
+                  "duration-500 transition-[outline-color] [border:2px_solid_black] outline-teal-400 outline-double outline-8 hover:outline-teal-950"
                 }
               />
             </Wrapper>

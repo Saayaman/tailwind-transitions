@@ -123,8 +123,8 @@ const Filters = () => {
             ❌ transition-[mix-blend-mode] <br />
             </p>
             <div className="flex justify-center -space-x-14 ">
-              <Circle className="transition-all bg-blue-400 hover:mix-blend-multiply" />
-              <Circle className="transition-all bg-pink-400 hover:mix-blend-multiply" />
+              <Circle className="transition-all bg-teal-400 hover:mix-blend-multiply" />
+              <Circle className="transition-all bg-orange-400 hover:mix-blend-multiply" />
             </div>
           </Wrapper>
         </div>
