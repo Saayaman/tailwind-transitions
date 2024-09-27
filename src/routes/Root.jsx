@@ -25,7 +25,7 @@ function Root() {
     <main className="flex flex-col gap-8 py-16 max-w-[1280px] px-4 mx-auto">
       <h1 className="text-4xl font-bold">Tailwind Transitions Cheat Sheet</h1>
       <nav>
-        <ul className="flex gap-6 underline">
+        <ul className="flex gap-x-8 gap-y-4 flex-row flex-wrap">
           {menuList.map((list) => (
             <Menu menuName={list} />
           ))}
