@@ -28,7 +28,7 @@ const BordersAndOutline = () => {
             <p>❌ transition-[border-style]</p>
             <Button
               className={
-                "duration-500 transition-[border-style] border-teal-400 border-solid border-2 hover:border-dotted"
+                "duration-500 transition-[border-style] border-teal-400 border-solid border-4 hover:border-dotted"
               }
             />
           </Wrapper>
