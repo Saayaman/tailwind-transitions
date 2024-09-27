@@ -5,7 +5,7 @@ const Button = ({ className, children }) => {
 
   return (
     <button
-      className={`px-3 py-2 rounded border-2 flex items-center ${className}`}
+      className={`px-3 py-2 rounded border-2 bg-white flex items-center ${className}`}
       onClick={() => setCount(count + 1)}
     >
       Hover me

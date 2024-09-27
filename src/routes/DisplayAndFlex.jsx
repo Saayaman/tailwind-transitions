@@ -99,15 +99,15 @@ const DisplayAndFlex = () => {
               transition-[top](absolute)<br />
             </p>
 <div className="relative h-[60px]">
-  <Button className="transition-[top] absolute top-0 hover:top-6" />
+  <Button className="w-max transition-[top] absolute top-0 hover:top-6" />
 </div>
           </Wrapper>
           <Wrapper>
             <p>
               transition-[bottom](absolute)<br />
             </p>
-<div className="relative h-[60px]">
-  <Button className="transition-[bottom] absolute bottom-0 hover:bottom-6" />
+<div className="w-max relative h-[60px]">
+  <Button className="w-max transition-[bottom] absolute bottom-0 hover:bottom-6" />
 </div>
           </Wrapper>
           <Wrapper>
@@ -115,7 +115,7 @@ const DisplayAndFlex = () => {
               transition-[left](absolute)<br />
             </p>
 <div className="relative h-[60px]">
-  <Button className="transition-[left] absolute left-0 hover:left-6" />
+  <Button className="w-max transition-[left] absolute left-0 hover:left-6" />
 </div>
           </Wrapper>
           <Wrapper>
@@ -123,7 +123,7 @@ const DisplayAndFlex = () => {
               transition-[right](absolute)<br />
             </p>
 <div className="relative h-[60px]">
-  <Button className="transition-[right] absolute right-0 hover:right-6" />
+  <Button className="w-max transition-[right] absolute right-0 hover:right-6" />
 </div>
           </Wrapper>
         </div>
