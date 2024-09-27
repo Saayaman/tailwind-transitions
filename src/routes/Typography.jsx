@@ -147,9 +147,6 @@ const Typography = () => {
               <li>Second in list</li>
               <li>Third in list</li>
             </ul>
-            <span className="text-[12px]">
-              *Only the <b>text-decoration-color</b> works with transition.
-            </span>
           </Wrapper>
           <Wrapper>
             <p>❌ transition-[list-style-image]</p>
@@ -162,9 +159,6 @@ const Typography = () => {
               <li>Second in list</li>
               <li>Third in list</li>
             </ul>
-            <span className="text-[12px]">
-              *Only the <b>text-decoration-color</b> works with transition.
-            </span>
           </Wrapper>
         </div>
       </section>
