@@ -14,7 +14,7 @@ const ColorsSection = () => {
         <p>transition-colors (applies all colors above)</p>
         <Button
           className={
-            "duration-1000 transition-colors underline hover:bg-teal-600 hover:text-teal-200 hover:border-text-teal-500"
+            "duration-1000 transition-colors underline hover:text-teal-400 hover:border-teal-400 hover:bg-teal-900"
           }
         >
           <Icon className="size-6" />

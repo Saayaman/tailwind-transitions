@@ -36,7 +36,7 @@ const TransformSection = () => {
             transition-transform (translate) <br />
           </p>
           <Button
-            className={"duration-500 transition-transform hover:translate-x-12 hover:text-[20px]"}
+            className={"duration-500 transition-transform hover:translate-x-12"}
           />
         </Wrapper>
         <Wrapper>
